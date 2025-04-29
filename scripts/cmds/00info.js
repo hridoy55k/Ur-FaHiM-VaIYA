@@ -16,9 +16,9 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '𝐓 𝐀 𝐍 𝐉 𝐈 𝐋',
+      name: '𝐅 𝐀 𝐇 𝐈 𝐌',
       gender: '𝐌𝐚𝐥𝐞',
-      age: '𝟏𝟖±',
+      age: '16±',
       height: '5.11',
       choise: 'Russian 😞',
       nick: '𝐉𝐚𝐦𝐚𝐢 𝐛𝐨𝐥𝐛𝐢  '
@@ -38,7 +38,7 @@ config: {
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
     const response = ` 
-╭[ .  ]•〆 ᵀᴬᴺᴶᴵᴸ 〆 ]  ─⦿
+╭[ .  ]•〆 𝐅𝐚𝐡𝐢𝐦 〆 ]  ─⦿
 ╭────────────◊
 ├‣ 𝐁𝐨𝐭 & 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 
 ├‣ 𝐍𝐚𝐦𝐞: ${ownerInfo.name}

@@ -63,7 +63,7 @@ module.exports = {
 				// Remove from pending IDs list
 				pendingIDs.splice(pendingIDs.indexOf(id), 1);
 				fs.writeFileSync(pendingIDsPath, JSON.stringify(pendingIDs));
-				api.sendMessage(`⚠️ Warning ⚠️\nYour thread ID's permission to use main commands from bot has been disapproved by Admin. all cmds will be locked\n\nReason: ${reason}\nContact Loid Butter for more information.\nFB: https://www.facebook.com/profile.php?id=100082741664058\n\nor join the support box for more info \nType: $support\nto join `, id);
+				api.sendMessage(`⚠️ Warning ⚠️\nYour thread ID's permission to use main commands from bot has been disapproved by Admin. all cmds will be locked\n\nReason: ${reason}\nContact Loid Butter for more information.\nFB: https://www.facebook.com/profile.php?id=100070294402719\n\nor join the support box for more info \nType: $support\nto join `, id);
 				message.reply("The thread ID has been disapproved for using main commands.");
 					}
 

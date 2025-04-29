@@ -21,3 +21,17 @@ module.exports = {
 ‣ 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐏𝐫𝐞𝐟𝐢𝐱: mim
 
 ‣ 𝐀𝐝𝐦𝐢𝐧:
+‣ 𝐅𝐚𝐡𝐢𝐦 𝐀𝐡𝐦𝐞𝐝
+
+‣ 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 ⓕ:
+‣ https://www.facebook.com/hackar.vaiya
+          `,
+          attachment: await global.utils.getStreamFromURL("https://i.imgur.com/WxtBNOq.jpeg")
+        });
+      } catch (err) {
+        console.error("❌ Error in prefix command:", err);
+        return message.reply("Something went wrong while sending the prefix message.");
+      }
+    }
+  }
+}

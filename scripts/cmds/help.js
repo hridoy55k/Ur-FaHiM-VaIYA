@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "╭───────❁";
 
-      msg += `\n│Apon 𝗛𝗘𝗟𝗣 𝗟𝗜𝗦𝗧\n╰────────────❁`; 
+      msg += `\n│𝐅 𝐀 𝐇 𝐈 𝐌 𝗛𝗘𝗟𝗣 𝗟𝗜𝗦𝗧\n╰────────────❁`; 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
